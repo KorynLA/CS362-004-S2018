@@ -6,7 +6,7 @@
 char inputChar()
 {
     // TODO: rewrite this function
-    char character = "[](){}axreste "[random () % 14];
+    char character = "[](){}axrest "[random () % 13];
     return character;
 }
 
@@ -16,7 +16,7 @@ char *inputString()
     // TODO: rewrite this function
 	char *string = (char *) malloc(sizeof(char) * 10);
     for(i=0; i < 10; i++){
-    	string[i] = "[](){}0axrsete "[random () % 15];
+    	string[i] = "[](){}0axrset "[random () % 14];
     	if(string[i] == '0') {
     		string[i] = '\0';
     	}
